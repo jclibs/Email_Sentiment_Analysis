@@ -2,8 +2,8 @@
 ### LLM Final Assessment
 ### Jason Clibanoff
 #### After reviewing the data and analyzing sentiments, here is a brief summary of the findings.
-------------------------------
 
+-----------------------------
 Most Positive and Negative Employees:
 
 The top three positive and negative employees were determined by calculating a sentiment score of -1 for negative, 0 for neutral, and +1 for positive for each email, and totalling each employees all time score.
@@ -37,7 +37,15 @@ Looking at the overall sentiment trends for all employees, sentiment tends to dr
 
 The vast majority of all emails sent across the board are positive, with a breakdown of 1330 positive emails, 547 neutral emails, and 314 negative emails.
 
+-----------------
 
+Usage:
+
+All code is in the employee_sentiment_analysis.ipynb file.
+
+All graphics are in the Visualizations folder.
+
+------------------------------
 
 
  
