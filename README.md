@@ -1,10 +1,10 @@
 # Employee Sentiment Analysis
 ### LLM Final Assessment
 ### Jason Clibanoff
-
+#### After reviewing the data and analyzing sentiments, here is a brief summary of the findings.
 ------------------------------
 
-After reviewing the data and analyzing sentiments, here is a brief summary of the findings.
+Most Positive and Negative Employees:
 
 The top three positive and negative employees were determinded by calculating a sentiment score of -1 for negative, 0 for neutral, and +1 for positive for each email, and totalling each employees all time score.
 #### Most Positive Employees (Highest All-time Sentiment Scores)
