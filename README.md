@@ -23,7 +23,7 @@ The top three positive and negative employees were determined by calculating a s
 
 -------------------------------
 
-Flight Risk :rotating_light::rotating_light::rotating_light:: 
+Flight Risk 🚨🚨🚨: 
 
 Checking for flight risk with the original criteria of anyone having **four** negative emails within any 30 day span was not very effect, as nearly everyone met that criteria. 
 Kayne.coulter@enron.com was the only employee initially not ruled a flight risk using this metric. Bobette.riner@ipgdirect.com, don.baughman@enron.com, eric.bass@enron.com, john.arnold@enron.com, johnny.palmer@enron.com, lydia.delgado@enron.com, patti.thompson@enron.com, rhonda.denton@enron.com, and sally.beck@enron.com had at least four negative emails within a rolling 30 day period at some point.
