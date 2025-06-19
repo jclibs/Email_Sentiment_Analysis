@@ -10,25 +10,25 @@ The top three positive and negative employees were determined by calculating a s
 #### Most Positive Employees (Highest All-time Sentiment Scores)
 | Email Address      | Sentiment Score      |
 |-------|-------|
-|john.arnold@enron.com	| 127      |
-|lydia.delgado@enron.com       |  119     |
-| sally.beck@enron.com      |   113    |
+|lydia.delgado@enron.com | 188      |
+|john.arnold@enron.com       |  179     |
+| patti.thompson@enron.com      |   147    |
 
 #### Most Negative Employees (Lowest All-time Sentiment Scores)
 | Email Address      | Sentiment Score      |
 |-------|-------|
-| rhonda.denton@enron.com	      |  65     |
-|kayne.coulter@enron.com       |   87    |
-| eric.bass@enron.com      |  97     |
+|	kayne.coulter@enron.com  | 105   |
+| rhonda.denton@enron.com  | 112   |
+| eric.bass@enron.com      | 126   |
 
 -------------------------------
 
 Flight Risk :rotating_light::rotating_light::rotating_light:: 
 
 Checking for flight risk with the original criteria of anyone having **four** negative emails within any 30 day span was not very effect, as nearly everyone met that criteria. 
-Kayne.coulter@enron.com was the only employee initially not ruled a flight risk using this metric. Bobette.riner@ipgdirect.com, don.baughman@enron.com, eric.bass@enron.com, john.arnold@enron.com, johnny.palmer@enron.com, lydia.delgado@enron.com, patti.thompson@enron.com, rhonda.denton@enron.com, and sally.beck@enron.com had at least four negative emails within a rolling 30 day period at some point.
+Bobette.riner@ipgdirect.com, don.baughman@enron.com, bobette.riner@ipgdirect.com, eric.bass@enron.com, john.arnold@enron.com, johnny.palmer@enron.com, kayne.coulter@enron.com, patti.thompson@enron.com, and sally.beck@enron.com had at least four negative emails within a rolling 30 day period at some point. Only three employees were initially not ruled a flight risk using this metric. 
 
-Raising the threshold to **more than five** negative messages in a rolling 30 day span, only sally.beck@enron.com, bobette.riner@ipgdirect.com, and lydia.delgado@enron.com are flagged. This metric might also be flawed, as people who just send the most emails are more likely to have a few more negative ones mixed in. Lydia.delgado@enron.com is flagged even though she ranks as top two in all time sentiment score. It might be more accurate to instead look at who is trending downwards in recent months.
+Raising the threshold to **more than five** negative messages in a rolling 30 day span, only sally.beck@enron.comis is flagged. This metric might also be flawed, as people who had a spike of negativity in the past are not necessarily all likely to leave. It might be more accurate or at least beneficial to also look at who is trending downwards in recent months. For example johnny.palmer@enron.com's monthly sentiment scores show steep decline over the last six months, yet the only time he met the original threshold was over a year prior to this decline.
 
 -------------
 Other key findings:
