@@ -33,9 +33,11 @@ Raising the threshold to **more than five** negative messages in a rolling 30 da
 -------------
 Other key findings:
 
-Looking at the overall sentiment trends for all employees, sentiment tends to drop towards the end of each year, reaching an all time low in November 2010, and trending in the same direction at the end of 2011. Average sentiment reached an all time high in September 2011.
+Looking at the overall sentiment trends for all employees, sentiment tends to dip in February each year, but there is an overall positive trend over time, despite individual scores fluctuating greatly from month to month at times.
 
-The vast majority of all emails sent across the board are positive, with a breakdown of 1330 positive emails, 547 neutral emails, and 314 negative emails.
+Features like the number and percentages of positive and negative words in each email and the monthly message count can be used to accurately predict employees' monthly sentiment scores.
+
+The vast majority of all emails sent across the board are positive, with a breakdown of 1574 positive emails, 444 neutral emails, and 173 negative emails.
 
 -----------------
 
