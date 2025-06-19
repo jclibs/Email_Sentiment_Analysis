@@ -25,10 +25,10 @@ The top three positive and negative employees were determined by calculating a s
 
 Flight Risk :rotating_light::rotating_light::rotating_light:: 
 
-Checking for flight risk with the original criteria of anyone having **four** negative emails within any 30 day span was not very effective, as nearly everyone met that criteria. 
+Checking for flight risk with the original criteria of anyone having **four or more** negative emails within any 30 day span was not very effective, as nearly everyone met that criteria. 
 Bobette.riner@ipgdirect.com, eric.bass@enron.com, john.arnold@enron.com, johnny.palmer@enron.com, kayne.coulter@enron.com, patti.thompson@enron.com, and sally.beck@enron.com had at least four negative emails within a rolling 30 day period at some point. Only three employees were initially not ruled a flight risk using this metric. 
 
-Raising the threshold to **more than five** negative messages in a rolling 30 day span, only sally.beck@enron.comis is flagged. This metric might also be flawed, as people who had a spike of negativity in the past are not necessarily all likely to leave. It might be more accurate or at least beneficial to also look at who is trending downwards in recent months. For example johnny.palmer@enron.com's monthly sentiment scores show steep decline over the last six months, yet the only time he met the original threshold was over a year prior to this decline.
+Raising the threshold to **five** negative messages in a rolling 30 day span, only sally.beck@enron.comis is flagged. This metric might also be flawed, as people who had a spike of negativity in the past are not necessarily all likely to leave. It might be more accurate or at least beneficial to also look at who is trending downwards in recent months. For example johnny.palmer@enron.com's monthly sentiment scores show steep decline over the last six months, yet the only time he met the original threshold was over a year prior to this decline.
 
 -------------
 Other key findings:
